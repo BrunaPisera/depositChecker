@@ -1,0 +1,14 @@
+{
+  "name": "deposit-checker-api",
+  "version": "1.0.0",
+  "description": "API to check deposits made by a costumer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruna Pisera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
