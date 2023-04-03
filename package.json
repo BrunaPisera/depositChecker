@@ -9,6 +9,7 @@
   "author": "Bruna Pisera",
   "license": "ISC",
   "dependencies": {
+    "eureka-js-client": "^4.5.0",
     "express": "^4.18.2",
     "pg": "^8.10.0"
   }
