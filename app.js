@@ -2,7 +2,7 @@ const express = require('express');
 
 //allow to expose endpoints through a server application
 const app = express();
-const PORT = 8081;
+const PORT = 8082;
 
 const routes = require('./routes/depositRoute')(app)
 const eurekaHelper = require('./configuration/eureka-helper');

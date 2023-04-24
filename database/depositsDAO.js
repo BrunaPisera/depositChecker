@@ -8,8 +8,6 @@ module.exports = () => {
                 
                 console.log(`Database Response Length: ${result.rows.length}`)
                 
-                pool.end();
-                
                 resolve(result)
             })
         });
