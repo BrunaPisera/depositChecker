@@ -14,6 +14,5 @@ module.exports = function routes(app){
         //     }).catch((error) => {
         //         httpResponse.status(500).send(`There was an error performing the statement: ${error}`)
         //     })
-
     })
 }

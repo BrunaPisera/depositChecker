@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: deposit-checker-api-service-1
+spec:
+  type: NodePort
+  ports:
+    - protocol: TCP
+      #porta do serviço, porta é do servico do K8s, os outros podem podem acessar esse Service através dessa porta
+      port: 8082
+      #porta que ta exposta no pod, porta que configuramos na app
+      targetPort: 8082
+      #porta acessivel de fora do cluster
+      nodePort: 31000
+  selector:
+    app: deposit-checker-api-pod

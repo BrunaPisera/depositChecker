@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: deposit-checker-api-pod
+  labels:
+    app: deposit-checker-api-pod
+spec:
+  containers:
+    - name: deposit-checker-api-container
+      image: deposit-checker-api:4
+      ports:
+        - containerPort: 3000
